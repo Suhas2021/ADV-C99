@@ -1,0 +1,89 @@
+* {
+    padding: 0 0;
+    margin: 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+    overflow-x: hidden;
+}
+
+div.important {
+    color: red;
+}
+
+button {
+    width: 8rem;
+    height: 2rem;
+    color: blue;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background: transparent;
+    transition: all 1s ease;
+}
+
+#pres
+{
+    color: red;
+}
+
+button:hover {
+    border-color: black;
+    color: black;
+}
+
+div.heading {
+    margin-top: 1rem;
+}
+
+#textbox {
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#camera {
+    width: 360px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#download1 {
+    border: 3px ridge gray;
+}
+
+#download1:hover {
+    border-radius: 30px;
+}
+
+#download2 {
+    border: 3px ridge gray;
+}
+
+#download2:hover {
+    border-radius: 30px;
+}
+
+#download3 {
+    border: 3px ridge gray;
+}
+
+#download3:hover {
+    border-radius: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#col
+{
+    font-style: italic;
+}
